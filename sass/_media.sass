@@ -14,7 +14,7 @@
 			width: 300px
 	.mobile
 		&_item 
-			width: 290px
+			width: 390px
 			&_subtitle
 				font-size: 22px
 	.choice 
@@ -25,9 +25,15 @@
 			display: none
 	.footer
 		&_wrapper > div 
-			width: 50%
+			width: 33%
 			&:nth-child(1)
-				width: %
+				width: 25%
+				display: flex 
+				justify-content: flex-start
+			&:nth-child(2)
+				width: 25%
+				display: flex 
+				justify-content: flex-start
 			&:nth-child(3)
 				width: 25%
 				display: flex 
@@ -39,6 +45,7 @@
 				img 
 					width: 100%
 
+
 @media (max-width: 991px)                       /* слідуюча ширина для устройств  */
 	.title
 		font-size: 28px
@@ -47,10 +54,7 @@
 			padding-right: 8px
 		&_link
 			font-size: 10px
-	.xs-hidden
-		display: block
-	.xs-visible
-		display: none
+	
 	.subheader
 		&_logo
 			img

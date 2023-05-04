@@ -25,7 +25,7 @@ nav
 		font-weight: 300
 	&:hover
 		text-decoration: none
-		color:$main-color		 
+        color: $main-color		 
 	&_item
 		border-right: 2px dotted black
 		padding-right: 28px
@@ -368,10 +368,18 @@ footer
 		align-items: flex-start
 		padding-top: 32px
 	&_wrapper > div 
-		width: auto
+		width: left
+		&:nth-child(1)
+			display: flex 
+			justify-content: flex-end
+		&:nth-child(2)
+			display: flex 
+			justify-content: flex-end
 		&:nth-child(3)
 			display: flex 
 			justify-content: flex-end
+
+
 	&_social
 		width: 160px
 		display: flex
