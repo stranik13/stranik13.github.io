@@ -435,7 +435,7 @@ footer a:hover {
   padding-top: 32px;
 }
 .footer_wrapper {
-  width: 33%;
+  width: auto;
 }
 .footer_wrapper:nth-child(3) {
   display: flex;
@@ -504,9 +504,6 @@ footer a:hover {
   .menu_link {
     font-size: 13px;
   }
-  .xs-visible {
-    display: none;
-  }
   .promo_header {
     font-size: 50px;
   }
@@ -529,13 +526,13 @@ footer a:hover {
   .require br {
     display: none;
   }
-  .footer_wrapper {
+  .footer_wrapper > div {
     width: 50%;
   }
-  .footer_wrapper:nth-child(1) {
+  .footer_wrapper > div:nth-child(1) {
     width: 25%;
   }
-  .footer_wrapper:nth-child(3) {
+  .footer_wrapper > div:nth-child(3) {
     width: 25%;
     display: flex;
     justify-content: flex-end;
@@ -559,12 +556,6 @@ footer a:hover {
   }
   .menu_link {
     font-size: 10px;
-  }
-  .xs-hidden {
-    display: block;
-  }
-  .xs-visible {
-    display: none;
   }
   .subheader_logo img {
     width: 100%;
@@ -609,16 +600,16 @@ footer a:hover {
   .footer_wrapper {
     flex-wrap: wrap;
   }
-  .footer_wrapper {
+  .footer_wrapper > div {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
-  .footer_wrapper:nth-child(1) {
+  .footer_wrapper > div:nth-child(1) {
     width: 100%;
   }
-  .footer_wrapper:nth-child(3) {
+  .footer_wrapper > div:nth-child(3) {
     width: 100%;
     justify-content: center;
   }
@@ -684,7 +675,7 @@ footer a:hover {
     display: none;
   }
   .xs-visible {
-    display: none;
+    display: block;
   }
   .subheader_phone {
     display: block;
@@ -921,31 +912,33 @@ footer a:hover {
   .footer_wrapper {
     padding-top: 22px;
   }
-  .footer_wrapper {
+  .footer_wrapper > div {
     margin-bottom: 20px;
-    width: 290px;
   }
-  .footer_wrapper:nth-child(1) {
+  .footer_wrapper > div:nth-child(1) {
     order: 2;
   }
-  .footer_wrapper:nth-child(2) {
+  .footer_wrapper > div:nth-child(2) {
     order: 1;
   }
-  .footer_wrapper:nth-child(3) {
+  .footer_wrapper > div:nth-child(3) {
     order: 3;
   }
-  .footer_wrapper_main {
+  .footer_links {
+    width: 290px;
+  }
+  .footer_links_main {
     padding: 0;
     font-size: 14px;
   }
-  .footer_wrapper_sub {
+  .footer_links_sub {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .footer_wrapper_sub a {
+  .footer_links_sub a {
     margin: 0 7px;
   }
-  .footer_wrapper_lang {
+  .footer_links_lang {
     margin-top: 10px;
   }
 }/*# sourceMappingURL=style.min.css.map */

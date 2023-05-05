@@ -1,3 +1,4 @@
+
 header
 	position: relative
 	height: 50px
@@ -25,7 +26,7 @@ nav
 		font-weight: 300
 	&:hover
 		text-decoration: none
-        color: $main-color		 
+		color:$main-color		 
 	&_item
 		border-right: 2px dotted black
 		padding-right: 28px
@@ -367,19 +368,11 @@ footer
 		justify-content: space-between
 		align-items: flex-start
 		padding-top: 32px
-	&_wrapper > div 
-		width: left
-		&:nth-child(1)
-			display: flex 
-			justify-content: flex-end
-		&:nth-child(2)
-			display: flex 
-			justify-content: flex-end
+	&_wrapper
+		width: auto
 		&:nth-child(3)
 			display: flex 
 			justify-content: flex-end
-
-
 	&_social
 		width: 160px
 		display: flex
@@ -426,6 +419,6 @@ footer
 			text-transform: uppercase
 			text-align: center
 	.xs-visible
-		display: none
+		display: block
 		
 	
